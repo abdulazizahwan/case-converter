@@ -1,19 +1,8 @@
 {
-  "redirects": [
-    {
-      "source": "/case-converter",
-      "destination": "/case-converter/",
-      "permanent": false
-    }
-  ],
   "rewrites": [
     {
-      "source": "/case-converter/assets/:path*",
-      "destination": "/assets/:path*"
-    },
-    {
-      "source": "/case-converter/:path*",
-      "destination": "/"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }

@@ -166,7 +166,7 @@ export default function App() {
           reserved.
         </p>
         <div className="mt-4 flex justify-center gap-6">
-          <a href="/privacy-policy" className="hover:text-zinc-400 transition-colors">
+          <a href="abdulazizahwan.com/privacy-policy" className="hover:text-zinc-400 transition-colors">
             Privacy Policy
           </a>
           <a href="mailto:hello@abdulazizahwan.com" className="hover:text-zinc-400 transition-colors">
