@@ -83,7 +83,7 @@ export default function App() {
           </div>
 
           <div className="space-y-8 bg-zinc-900/50 border border-zinc-800/50 rounded-3xl p-8 md:p-12">
-            <h2 className="text-3xl font-bold text-center text-white">
+            <h2 className="text-3xl font-bold text-left md:text-center text-white">
               Mastering Text Cases
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
