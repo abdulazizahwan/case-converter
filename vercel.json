@@ -1,4 +1,17 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-bypass-proxy"
+        }
+      ],
+      "destination": "https://abdulazizahwan.com/case-converter/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
