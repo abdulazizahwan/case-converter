@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig(() => {
   return {
-    base: "/case-converter/",
+    base: "./",
     plugins: [react(), tailwindcss()],
     define: {},
     resolve: {
